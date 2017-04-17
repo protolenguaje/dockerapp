@@ -14,7 +14,7 @@ test:
     - docker-compose up -d
     - docker-compose run dockerapp python test.py
 
-delpoyment:
+deployment:
   hub:
     branch: [circle_ci_publish, master]
     commands:
